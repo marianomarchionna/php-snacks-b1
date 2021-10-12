@@ -1,0 +1,10 @@
+<!-- ## Snack 5
+Prendere un paragrafo abbastanza lungo, contenente diverse frasi. Prendere il paragrafo e suddividerlo in tanti paragrafi. Ogni punto un nuovo paragrafo. -->
+<?php
+    $text = 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ipsam enim exercitationem ullam odio similique blanditiis, dolor voluptatum voluptate eum necessitatibus laborum rem commodi consequatur sit architecto omnis, perferendis vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi tenetur ratione ut obcaecati odio quam alias tempora quibusdam quasi nulla incidunt possimus, soluta quaerat hic sed omnis inventore corrupti.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus vitae laborum nihil id esse magni. Qui deserunt exercitationem praesentium doloribus temporibus. Facere, cum. Necessitatibus blanditiis odit porro nostrum nulla aspernatur.Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod dignissimos maxime ea provident quisquam, dolorem laboriosam officiis praesentium laudantium neque a reiciendis, commodi tempore cum nihil nulla ipsa non quo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et ipsam enim exercitationem ullam odio similique blanditiis, dolor voluptatum voluptate eum necessitatibus laborum rem commodi consequatur sit architecto omnis, perferendis vel. Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia excepturi tenetur ratione ut obcaecati odio quam alias tempora quibusdam quasi nulla incidunt possimus, soluta quaerat hic sed omnis inventore corrupti.Lorem ipsum, dolor sit amet consectetur adipisicing elit.';
+    $paragraph = explode('.', $text);
+    foreach ($paragraph as $key => $value){
+        if(!empty($value))
+            echo 'Paragrafo n.' . $key . ' ' . $value . '</br>';
+    }
+?>
