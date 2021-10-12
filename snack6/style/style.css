@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.square {
+    float: left;
+    margin-left: 20px;
+}
+
+.gray {
+    border: 2px solid gray;
+}
+
+.green {
+    border: 2px solid green;
+}
